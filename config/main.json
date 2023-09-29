@@ -1,6 +1,6 @@
 {
-    "MinifiyAll": true,
-    "Multifile": true,
+    "MinifiyAll": false,
+    "Multifile": false,
     "CustomPlugins": {
         "SwizzleLookups": [
             100
