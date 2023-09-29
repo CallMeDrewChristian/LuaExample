@@ -5,11 +5,6 @@
     "variables": null,
     "Virtualize": true,
     "CustomPlugins": {
-        "SwizzleLookups": [
-            1
-        ],
-        "EncryptStrings": [
-            1
-        ],
+
     }
 }
