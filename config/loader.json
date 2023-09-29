@@ -1,9 +1,9 @@
 {
-    "MinifiyAll": true,
+    "MinifiyAll": false,
     "ASCIIArt": "feet_1",
     "funcs": null,
     "variables": null,
-    "Virtualize": true,
+    "Virtualize": false,
     "CustomPlugins": {
         "SwizzleLookups": [
             100
