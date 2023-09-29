@@ -12,12 +12,6 @@
             15
         ],
         "RevertAllIfStatements": [
-            50
-        ],
-        "ControlFlowFlattenV1AllBlocks": [
-            15, 15, 15
-        ],
-        "MixedBooleanArithmetic": [
             15
         ],
         "MutateAllLiterals": [
