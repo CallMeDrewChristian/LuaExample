@@ -6,25 +6,22 @@
     "Virtualize": true,
     "CustomPlugins": {
         "SwizzleLookups": [
-            100
+            5
         ],
         "EncryptStrings": [
-            100
+            5
         ],
         "RevertAllIfStatements": [
-            50
-        ],
-        "ControlFlowFlattenV1AllBlocks": [
-            75, 75, 33
+            5
         ],
         "MixedBooleanArithmetic": [
-            75
+            5
         ],
         "MutateAllLiterals": [
-            20
+            5
         ],
         "JunkifyAllIfStatements": [
-            50
+            5
         ]
     }
 }
