@@ -1,9 +1,30 @@
 {
     "MinifiyAll": true,
-    "Multifile": true,
+    "ASCIIArt": "feet_1",
+    "funcs": null,
+    "variables": null,
+    "Virtualize": true,
     "CustomPlugins": {
         "SwizzleLookups": [
             100
         ],
+        "EncryptStrings": [
+            100
+        ],
+        "RevertAllIfStatements": [
+            50
+        ],
+        "ControlFlowFlattenV1AllBlocks": [
+            75, 75, 33
+        ],
+        "MixedBooleanArithmetic": [
+            75
+        ],
+        "MutateAllLiterals": [
+            20
+        ],
+        "JunkifyAllIfStatements": [
+            50
+        ]
     }
 }
