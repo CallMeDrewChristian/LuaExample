@@ -54,5 +54,5 @@ jobs:
       - name: Create artifact publish
         uses: actions/upload-artifact@v1
         with:
-          name: hello world
+          name: helloworld
           path: public/
