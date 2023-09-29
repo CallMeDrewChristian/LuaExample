@@ -1,12 +1,9 @@
 {
-    "MinifiyAll": false,
-    "ASCIIArt": "feet_1",
-    "funcs": null,
-    "variables": null,
-    "Virtualize": false,
+    "MinifiyAll": true,
+    "Multifile": true,
     "CustomPlugins": {
         "SwizzleLookups": [
-            1
+            50
         ],
     }
 }
