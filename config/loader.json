@@ -1,18 +1,19 @@
 {
     "MinifiyAll": true,
     "Multifile": true,
+    "Virtualize": true,
     "CustomPlugins": {
         "SwizzleLookups": [
-            100
+            15
         ],
         "EncryptFuncDeclaration": [
-            100
+            15
         ],
         "ControlFlowFlattenV1AllBlocks": [
-            100
+            15
         ],
         "JunkifyAllIfStatements": [
-            100
+            15
         ]
     }
 }
