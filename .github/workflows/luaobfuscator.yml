@@ -34,11 +34,12 @@ jobs:
             -H "sessionId: $(grep -o -P '(?<="sessionId":").*(?="})')" \
             | jq -r ".code" \
             > public/loader.lua
+            > public/foo.lua
+
 
       # publish public/loader.lua
       - name: Create artifact publish
         uses: actions/upload-artifact@v1
         with:
           name: hello world
-          path: src/
-
+          path: public/
