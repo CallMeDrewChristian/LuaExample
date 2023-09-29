@@ -6,7 +6,7 @@
     "Virtualize": false,
     "CustomPlugins": {
         "SwizzleLookups": [
-            100
+            1
         ],
     }
 }
