@@ -40,5 +40,5 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: hello world!.lua
-          path: public/src
+          path: public/
 
