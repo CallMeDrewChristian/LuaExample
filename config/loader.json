@@ -6,10 +6,7 @@
     "Virtualize": true,
     "CustomPlugins": {
         "SwizzleLookups": [
-            5
-        ],
-        "EncryptStrings": [
-            5
+            50
         ],
     }
 }
