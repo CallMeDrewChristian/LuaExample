@@ -1,4 +1,5 @@
 local a = false
+local nothing = ""
 function onChange()
   if a == false then 
     print("A is false")
@@ -9,3 +10,4 @@ function onChange()
 end
 onChange()
 print("After Woah!")
+warn(nothing)
