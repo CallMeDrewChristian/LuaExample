@@ -1,4 +1,11 @@
+local a = false
 function onChange()
-    print("Hello World")
+  if a == false then 
+    print("A is false")
+  else
+    print("A is true")
+
+  end
 end
 onChange()
+print("After Woah!")
