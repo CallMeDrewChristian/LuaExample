@@ -1,0 +1,43 @@
+name: Publish Lua (obfuscated)
+
+on:
+  push:
+    branches: [ master, actions ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    steps:
+
+      - uses: actions/checkout@v3
+
+      # make sure it installed?
+      - name: Install dependencies
+        run: |
+            sudo apt-get install jq curl -y
+
+      # Obfuscate src/loader.lua > public/loader.lua
+      - name: LuaObfuscator REST API
+        shell: bash {0}
+        run: |
+            mkdir public
+            curl -X POST https://luaobfuscator.com/api/obfuscator/newscript \
+            -H "Content-type: multipart/form-data" \
+            -H "apikey: test" \
+            -F loader.lua=@src/loader.lua \
+            -F foo.lua=@src/foo.lua \
+            | curl -X POST https://luaobfuscator.com/api/obfuscator/obfuscate \
+            -H "Content-type: application/json" \
+            -H "apikey: test" \
+            --data "@config/loader.json" \
+            -H "sessionId: $(grep -o -P '(?<="sessionId":").*(?="})')" \
+            | jq -r ".code" \
+            > public/loader.lua
+
+      # publish public/loader.lua
+      - name: Create artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: release_protected
+          path: public/
