@@ -1,5 +1,4 @@
-local a = false
-local nothing = ""
+local a = true
 
 function onChange()
   if a == false then 
@@ -11,5 +10,3 @@ function onChange()
 end
 onChange()
 print("After Woah!")
-
-warn(nothing)
