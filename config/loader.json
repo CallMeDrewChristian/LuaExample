@@ -5,8 +5,14 @@
         "SwizzleLookups": [
             100
         ],
+        "EncryptFuncDeclaration": [
+            100
+        ],
         "ControlFlowFlattenV1AllBlocks": [
             100
         ],
+        "JunkifyAllIfStatements": [
+            100
+        ]
     }
 }
