@@ -36,9 +36,9 @@ jobs:
             > public/loader.lua
 
       # publish public/loader.lua
-      - name: Create artifact
+      - name: Create artifact publish
         uses: actions/upload-artifact@v1
         with:
-          name: hello world!.lua
+          name: hello world
           path: public/
 
