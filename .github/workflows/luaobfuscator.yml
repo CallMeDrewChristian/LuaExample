@@ -39,6 +39,6 @@ jobs:
       - name: Create artifact
         uses: actions/upload-artifact@v1
         with:
-          name: release_protected
+          name: hello world!
           path: public/
 
