@@ -1,1 +1,1 @@
-return 42;
+print("Hello World"!)
