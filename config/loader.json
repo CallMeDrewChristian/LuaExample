@@ -11,17 +11,5 @@
         "EncryptStrings": [
             5
         ],
-        "RevertAllIfStatements": [
-            5
-        ],
-        "MixedBooleanArithmetic": [
-            5
-        ],
-        "MutateAllLiterals": [
-            5
-        ],
-        "JunkifyAllIfStatements": [
-            5
-        ]
     }
 }
