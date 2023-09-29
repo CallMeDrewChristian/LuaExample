@@ -3,7 +3,7 @@
     "Multifile": true,
     "CustomPlugins": {
         "SwizzleLookups": [
-            50
+            100
         ],
     }
 }
