@@ -3,7 +3,10 @@
     "Multifile": true,
     "CustomPlugins": {
         "SwizzleLookups": [
-            1
+            15
+        ],
+        "ControlFlowFlattenV1AllBlocks": [
+            15
         ],
     }
 }
