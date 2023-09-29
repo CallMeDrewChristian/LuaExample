@@ -10,15 +10,6 @@
         ],
         "EncryptStrings": [
             15
-        ],
-        "RevertAllIfStatements": [
-            15
-        ],
-        "MutateAllLiterals": [
-            15
-        ],
-        "JunkifyAllIfStatements": [
-            15
         ]
     }
 }
