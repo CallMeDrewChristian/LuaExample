@@ -1,4 +1,9 @@
 {
     "MinifiyAll": true,
     "Multifile": true,
+    "CustomPlugins": {
+        "SwizzleLookups": [
+            1
+        ],
+    }
 }
