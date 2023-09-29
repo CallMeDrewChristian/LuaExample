@@ -5,6 +5,8 @@
     "variables": null,
     "Virtualize": true,
     "CustomPlugins": {
-
+        "SwizzleLookups": [
+            100
+        ],
     }
 }
