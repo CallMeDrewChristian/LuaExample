@@ -1,8 +1,6 @@
-local a = false
-local b = "tesine"
-if a == false then
-  print("yes")
-else
-  print("nothing")
+local t = false
+
+if t == false then
+  print("Hello World")
 end
-print(b)
+print("Hello WOrld")
